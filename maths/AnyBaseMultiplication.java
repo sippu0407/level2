@@ -50,6 +50,9 @@ public class AnyBaseMultiplication {
 			//calculation for each digit
 			
 			result+=(anybasemul(num,d2,base)*pow);
+			
+			//other way is
+			//result+=anybasemul(num,d2*pow,base);
 			pow*=10;
 		}
 		
